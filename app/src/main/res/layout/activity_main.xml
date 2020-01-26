@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kz.alt.spaceship.presentation.ViewGameDrawer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@drawable/bg_main"
+    >
+
+    <ImageView
+        android:id="@+id/left_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/bg_button"
+        />
+
+    <ImageView
+        android:id="@+id/right_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/bg_button"
+        />
+
+</kz.alt.spaceship.presentation.ViewGameDrawer>
